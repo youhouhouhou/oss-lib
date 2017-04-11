@@ -23,7 +23,7 @@ buildscript {
 
 allprojects {
   println "build.gradle allprojects ${project.name}"
-  group = 'com.yirendai.oss.lib'
+  group = 'com.yirendai.infra'
 }
 
 subprojects {
