@@ -22,12 +22,12 @@ buildscript {
 }
 
 allprojects {
-  println "build.gradle allprojects ${project.name}"
+  //println "build.gradle allprojects ${project.name}"
   group = 'com.yirendai.infra'
 }
 
 subprojects {
-  println "build.gradle subprojects ${project.name}"
+  //println "build.gradle subprojects ${project.name}"
   apply from: "$rootDir/dependencies.gradle"
 
   dependencies {
