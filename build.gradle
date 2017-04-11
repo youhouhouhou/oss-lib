@@ -54,7 +54,7 @@ subprojects {
       'org.hamcrest:hamcrest-all',
       'junit:junit'
 
-    if ("1.4.x" == "${springBootApi}") {
+    if ("1.4.x" == "${gradle.ext.springBootApi}") {
       //testCompile file('testCompile.dependencies').readLines()
       testCompile 'org.springframework.boot:spring-boot-test'
     }

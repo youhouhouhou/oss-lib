@@ -9,7 +9,7 @@ dependencies {
     'org.springframework.security:spring-security-web'
 
   optional project(":oss-lib-swagger")
-  if ("${springBootVersion}" >= "1.4.1") {
+  if ("${gradle.ext.springBootVersion}" >= "1.4.1") {
     optional 'io.github.openfeign:feign-core'
   } else {
     optional 'com.netflix.feign:feign-core'

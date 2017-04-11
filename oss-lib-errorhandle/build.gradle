@@ -7,7 +7,7 @@ dependencies {
     'org.springframework:spring-webmvc'
 
   optional 'org.springframework.boot:spring-boot-autoconfigure'
-  if ("${springBootVersion}" >= "1.4.1") {
+  if ("${gradle.ext.springBootVersion}" >= "1.4.1") {
     optional 'io.github.openfeign:feign-core'
   } else {
     optional 'com.netflix.feign:feign-core'
