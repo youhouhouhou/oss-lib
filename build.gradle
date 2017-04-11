@@ -22,12 +22,12 @@ buildscript {
 }
 
 allprojects {
-  println "build.gradle allprojects ${project.name}"
-  group = 'com.yirendai.oss.lib'
+  //println "build.gradle allprojects ${project.name}"
+  group = 'com.yirendai.infra'
 }
 
 subprojects {
-  println "build.gradle subprojects ${project.name}"
+  //println "build.gradle subprojects ${project.name}"
   apply from: "$rootDir/dependencies.gradle"
 
   dependencies {
@@ -54,7 +54,7 @@ subprojects {
       'org.hamcrest:hamcrest-all',
       'junit:junit'
 
-    if ("1.4.x" == "${springBootApi}") {
+    if ("1.4.x" == "${gradle.ext.springBootApi}") {
       //testCompile file('testCompile.dependencies').readLines()
       testCompile 'org.springframework.boot:spring-boot-test'
     }

@@ -21,11 +21,9 @@
 
 - 使用lib-security，需要指定`spring-boot.version`,目前支持的springboot版本如下,
 - 后续会随着springboot的演进，持续加入对新版springboot的支持。（这里推荐使用1.4.1）
-  
-    + 1.3.5.RELEASE
-    + 1.3.6.RELEASE
-    + 1.3.7.RELEASE
+
     + 1.4.1.RELEASE
+    + 1.4.2.RELEASE
   
 > 为方便测试，可以加入`spring-security-test`的依赖。
 

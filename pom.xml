@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.yirendai.oss</groupId>
+        <groupId>com.yirendai.infra</groupId>
         <artifactId>oss-build</artifactId>
         <version>1.0.8.OSS-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.yirendai.oss.lib</groupId>
+    <groupId>com.yirendai.infra</groupId>
     <artifactId>oss-lib</artifactId>
     <name>oss-lib</name>
     <packaging>pom</packaging>
@@ -87,7 +87,7 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.yirendai.oss</groupId>
+                <groupId>com.yirendai.infra</groupId>
                 <artifactId>oss-common-dependencies-spring-boot-${spring-boot.version}</artifactId>
                 <version>${oss-common-dependencies.version}</version>
                 <type>pom</type>

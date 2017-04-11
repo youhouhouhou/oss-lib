@@ -4,14 +4,14 @@
 
   发布oss-lib的快照
 
-    VERSIONS=( "1.3.5.RELEASE" "1.3.6.RELEASE" "1.3.7.RELEASE" "1.4.1.RELEASE" )
+    VERSIONS=( "1.4.1.RELEASE" "1.4.2.RELEASE" )
     for version in "${VERSIONS[@]}"; do (gradle -Pinfrastructure=${INFRASTRUCTURE} -PspringBootVersion=${version} -PtestFailureIgnore=true clean build install uploadArchives); done
     
 #### 本地安装
 
   本地安装oss-lib
 
-      VERSIONS=( "1.3.5.RELEASE" "1.3.6.RELEASE" "1.3.7.RELEASE" "1.4.1.RELEASE" )
+      VERSIONS=( "1.4.1.RELEASE" "1.4.2.RELEASE" )
       for version in "${VERSIONS[@]}"; do (gradle -Pinfrastructure=${INFRASTRUCTURE} -PspringBootVersion=${version} -PtestFailureIgnore=true clean build install); done
 
 #### Import into IDE
