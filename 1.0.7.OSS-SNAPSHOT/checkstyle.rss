@@ -19,20 +19,20 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>oss-lib-swagger - Checkstyle report</title>
-    <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger</link>
-    <description>oss-lib-swagger - Checkstyle report</description>
+    <title>oss-lib - Checkstyle report</title>
+    <link>https://github.com/home1-oss/oss-lib</link>
+    <description>oss-lib - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2017</copyright>
     <item>
-      <title>File: 10,
+      <title>File: 1,
              Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html</link>
+            <link>https://github.com/home1-oss/oss-lib/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/home1-oss/oss-lib/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,133 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiResponse.java">com/yirendai/oss/lib/swagger/model/ApiResponse.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#git.properties">git.properties</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.ManagementConfiguration.java">com/yirendai/oss/lib/swagger/starter/ManagementConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.AnnotationCheckListener.java">com/yirendai/oss/lib/swagger/starter/AnnotationCheckListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiRequest.java">com/yirendai/oss/lib/swagger/model/ApiRequest.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.Swagger2DocumentationAutoConfiguration.java">com/yirendai/oss/lib/swagger/starter/Swagger2DocumentationAutoConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.NoManagementConfiguration.java">com/yirendai/oss/lib/swagger/starter/NoManagementConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiOperationInfo.java">com/yirendai/oss/lib/swagger/model/ApiOperationInfo.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.ManualRequestHandler.java">com/yirendai/oss/lib/swagger/ManualRequestHandler.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.SwaggerUtils.java">com/yirendai/oss/lib/swagger/SwaggerUtils.java</a>
+                  <a href="https://github.com/home1-oss/oss-lib/checkstyle.html#git.properties">git.properties</a>
                 </td>
                 <td>
                   0
