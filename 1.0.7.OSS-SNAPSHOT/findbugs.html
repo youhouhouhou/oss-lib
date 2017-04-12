@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20170412" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>oss-lib-test &#x2013; FindBugs Bug Detector Report</title>
+    <title>oss-lib-errorhandle &#x2013; FindBugs Bug Detector Report</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -47,6 +47,9 @@
         <ul class="dropdown-menu">
         
                       <li>      <a href="README.html"  title="README">README</a>
+</li>
+                  
+                      <li>      <a href="CONTRIBUTION.html"  title="开发">开发</a>
 </li>
                           </ul>
       </li>
@@ -95,6 +98,8 @@
 </li>
                                   <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
 </li>
+                                  <li>      <a href="pmd.html"  title="PMD">PMD</a>
+</li>
                               </ul>
             </li>
                           </ul>
@@ -114,7 +119,7 @@
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
-                <h2>oss-lib-test</h2>
+                <h2>oss-lib-errorhandle</h2>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -157,6 +162,13 @@
           <span class="none"></span>
         README</a>
             </li>
+                
+      <li>
+  
+                          <a href="CONTRIBUTION.html" title="开发">
+          <span class="none"></span>
+        开发</a>
+            </li>
                                         <li class="nav-header">Project Documentation</li>
                                                                                                                                                                                             
       <li>
@@ -165,7 +177,7 @@
           <span class="icon-chevron-right"></span>
         Project Information</a>
                   </li>
-                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                              
       <li>
   
                           <a href="project-reports.html" title="Project Reports">
@@ -233,6 +245,13 @@
           <span class="none"></span>
         Tag List</a>
             </li>
+                    
+      <li>
+  
+                          <a href="pmd.html" title="PMD">
+          <span class="none"></span>
+        PMD</a>
+            </li>
               </ul>
         </li>
             </ul>
@@ -270,8 +289,8 @@
 <th>Errors</th>
 <th>Missing Classes</th></tr>
 <tr class="b">
-<td>5</td>
-<td>0</td>
+<td>40</td>
+<td>7</td>
 <td>0</td>
 <td>0</td></tr></table></div>
 <div class="section">
@@ -279,7 +298,85 @@
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>Class</th>
-<th>Bugs</th></tr></table></div>
+<th>Bugs</th></tr>
+<tr class="b">
+<td><a href="#com.yirendai.oss.lib.errorhandle.api.HttpHeader">com.yirendai.oss.lib.errorhandle.api.HttpHeader</a></td>
+<td>1</td></tr>
+<tr class="a">
+<td><a href="#com.yirendai.oss.lib.errorhandle.api.ResolvedError">com.yirendai.oss.lib.errorhandle.api.ResolvedError</a></td>
+<td>3</td></tr>
+<tr class="b">
+<td><a href="#com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder">com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder</a></td>
+<td>3</td></tr></table></div><a name="com.yirendai.oss.lib.errorhandle.api.HttpHeader"></a>
+<div class="section">
+<h3><a name="com.yirendai.oss.lib.errorhandle.api.HttpHeader"></a>com.yirendai.oss.lib.errorhandle.api.HttpHeader</h3>
+<table border="0" class="table table-striped">
+<tr class="a">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.errorhandle.api.HttpHeader.setValues(String[]) may expose internal representation by storing an externally mutable object into HttpHeader.values</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/HttpHeader.html#L26">26</a></td>
+<td>Medium</td></tr></table></div><a name="com.yirendai.oss.lib.errorhandle.api.ResolvedError"></a>
+<div class="section">
+<h3><a name="com.yirendai.oss.lib.errorhandle.api.ResolvedError"></a>com.yirendai.oss.lib.errorhandle.api.ResolvedError</h3>
+<table border="0" class="table table-striped">
+<tr class="a">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError.getErrors() may expose internal representation by returning ResolvedError.errors</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L71">71</a></td>
+<td>Medium</td></tr>
+<tr class="a">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError.getHeaders() may expose internal representation by returning ResolvedError.headers</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L90">90</a></td>
+<td>Medium</td></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError.getTracks() may expose internal representation by returning ResolvedError.tracks</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L101">101</a></td>
+<td>Medium</td></tr></table></div><a name="com.yirendai.oss.lib.errorhandle.api.ResolvedErrorResolvedErrorBuilder"></a>
+<div class="section">
+<h3><a name="com.yirendai.oss.lib.errorhandle.api.ResolvedErrorResolvedErrorBuilder"></a>com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder</h3>
+<table border="0" class="table table-striped">
+<tr class="a">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder.errors(ValidationError[]) may expose internal representation by storing an externally mutable object into ResolvedError$ResolvedErrorBuilder.errors</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L47">47</a></td>
+<td>Medium</td></tr>
+<tr class="a">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder.headers(HttpHeader[]) may expose internal representation by storing an externally mutable object into ResolvedError$ResolvedErrorBuilder.headers</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L47">47</a></td>
+<td>Medium</td></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.errorhandle.api.ResolvedError$ResolvedErrorBuilder.tracks(String[]) may expose internal representation by storing an externally mutable object into ResolvedError$ResolvedErrorBuilder.tracks</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/errorhandle/api/ResolvedError.html#L47">47</a></td>
+<td>Medium</td></tr></table></div>
                   </div>
             </div>
           </div>

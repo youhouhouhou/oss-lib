@@ -40,13 +40,13 @@
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>  <em class="jxr_javadoccomment"> * Created by zhanghaolun on 16/8/10.</em>
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>  <em class="jxr_javadoccomment"> */</em>
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  @Slf4j
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../../../com/yirendai/oss/lib/errorhandle/internal/translator/DefaultExceptionTranslator.html">DefaultExceptionTranslator</a> <strong class="jxr_keyword">implements</strong> ExceptionTranslator, <a href="../../../../../../../com/yirendai/oss/lib/common/msginterpolate/MessageInterpolatorAware.html">MessageInterpolatorAware</a> {
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../../../com/yirendai/oss/lib/errorhandle/internal/translator/DefaultExceptionTranslator.html">DefaultExceptionTranslator</a> <strong class="jxr_keyword">implements</strong> ExceptionTranslator, MessageInterpolatorAware {
 <a class="jxr_linenumber" name="L36" href="#L36">36</a>  
 <a class="jxr_linenumber" name="L37" href="#L37">37</a>    <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String DEFAULT_EXCEPTION_CLASS = <span class="jxr_string">"default"</span>;
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String FIELD_STATUS = <span class="jxr_string">"status"</span>;
 <a class="jxr_linenumber" name="L39" href="#L39">39</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String FIELD_TEMPLATE = <span class="jxr_string">"template"</span>;
 <a class="jxr_linenumber" name="L40" href="#L40">40</a>  
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>    <strong class="jxr_keyword">private</strong> <a href="../../../../../../../com/yirendai/oss/lib/common/msginterpolate/MessageInterpolator.html">MessageInterpolator</a> messageInterpolator;
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>    <strong class="jxr_keyword">private</strong> MessageInterpolator messageInterpolator;
 <a class="jxr_linenumber" name="L42" href="#L42">42</a>    @Setter
 <a class="jxr_linenumber" name="L43" href="#L43">43</a>    <strong class="jxr_keyword">private</strong> Locale locale;
 <a class="jxr_linenumber" name="L44" href="#L44">44</a>    @Setter
@@ -58,8 +58,8 @@
 <a class="jxr_linenumber" name="L50" href="#L50">50</a>      <strong class="jxr_keyword">this</strong>.messageSources = unmodifiableList(messageSources);
 <a class="jxr_linenumber" name="L51" href="#L51">51</a>    }
 <a class="jxr_linenumber" name="L52" href="#L52">52</a>  
-<a class="jxr_linenumber" name="L53" href="#L53">53</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setMessageInterpolator(<strong class="jxr_keyword">final</strong> <a href="../../../../../../../com/yirendai/oss/lib/common/msginterpolate/MessageInterpolator.html">MessageInterpolator</a> messageInterpolator) {
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>      <strong class="jxr_keyword">this</strong>.messageInterpolator = messageInterpolator != <strong class="jxr_keyword">null</strong> ? messageInterpolator : <strong class="jxr_keyword">new</strong> <a href="../../../../../../../com/yirendai/oss/lib/common/msginterpolate/NoOpMessageInterpolator.html">NoOpMessageInterpolator</a>();
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>    <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">void</strong> setMessageInterpolator(<strong class="jxr_keyword">final</strong> MessageInterpolator messageInterpolator) {
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>      <strong class="jxr_keyword">this</strong>.messageInterpolator = messageInterpolator != <strong class="jxr_keyword">null</strong> ? messageInterpolator : <strong class="jxr_keyword">new</strong> NoOpMessageInterpolator();
 <a class="jxr_linenumber" name="L55" href="#L55">55</a>    }
 <a class="jxr_linenumber" name="L56" href="#L56">56</a>  
 <a class="jxr_linenumber" name="L57" href="#L57">57</a>    @Override
