@@ -31,12 +31,8 @@
     </ciManagement>
 
     <modules>
-        <module>oss-lib-adminclient</module>
         <module>oss-lib-common</module>
-        <module>oss-lib-swagger</module>
         <module>oss-lib-test</module>
-        <module>oss-lib-log4j2</module>
-        <module>oss-lib-hystrix</module>
     </modules>
 
     <properties>
