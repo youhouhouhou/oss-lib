@@ -105,13 +105,13 @@
 <a class="jxr_linenumber" name="L97" href="#L97">97</a>    <strong class="jxr_keyword">private</strong> ApplicationContext applicationContext;
 <a class="jxr_linenumber" name="L98" href="#L98">98</a>  
 <a class="jxr_linenumber" name="L99" href="#L99">99</a>    @Autowired
-<a class="jxr_linenumber" name="L100" href="#L100">100</a>   <strong class="jxr_keyword">private</strong> AppProperties appProperties;
+<a class="jxr_linenumber" name="L100" href="#L100">100</a>   <strong class="jxr_keyword">private</strong> <a href="../../../../../../com/yirendai/oss/boot/autoconfigure/AppProperties.html">AppProperties</a> appProperties;
 <a class="jxr_linenumber" name="L101" href="#L101">101</a> 
 <a class="jxr_linenumber" name="L102" href="#L102">102</a>   @Autowired
-<a class="jxr_linenumber" name="L103" href="#L103">103</a>   <strong class="jxr_keyword">private</strong> DefaultHttpEntityMethodProcessor defaultHttpEntityMethodProcessor;
+<a class="jxr_linenumber" name="L103" href="#L103">103</a>   <strong class="jxr_keyword">private</strong> <a href="../../../../../../com/yirendai/oss/lib/webmvc/internal/DefaultHttpEntityMethodProcessor.html">DefaultHttpEntityMethodProcessor</a> defaultHttpEntityMethodProcessor;
 <a class="jxr_linenumber" name="L104" href="#L104">104</a> 
 <a class="jxr_linenumber" name="L105" href="#L105">105</a>   @Autowired
-<a class="jxr_linenumber" name="L106" href="#L106">106</a>   <strong class="jxr_keyword">private</strong> DomainResolver domainResolver;
+<a class="jxr_linenumber" name="L106" href="#L106">106</a>   <strong class="jxr_keyword">private</strong> <a href="../../../../../../com/yirendai/oss/lib/webmvc/api/DomainResolver.html">DomainResolver</a> domainResolver;
 <a class="jxr_linenumber" name="L107" href="#L107">107</a>   @Autowired
 <a class="jxr_linenumber" name="L108" href="#L108">108</a>   <strong class="jxr_keyword">private</strong> ObjectMapper objectMapper;
 <a class="jxr_linenumber" name="L109" href="#L109">109</a>   @Autowired
@@ -224,12 +224,12 @@
 <a class="jxr_linenumber" name="L216" href="#L216">216</a>     <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/errorhandle/internal/translator/DefaultExceptionTranslator.html">DefaultExceptionTranslator</a> defaultExceptionTranslator = <strong class="jxr_keyword">new</strong> <a href="../../../../../../com/yirendai/oss/lib/errorhandle/internal/translator/DefaultExceptionTranslator.html">DefaultExceptionTranslator</a>();
 <a class="jxr_linenumber" name="L217" href="#L217">217</a>     defaultExceptionTranslator.setLocationComparator(locationComparator);
 <a class="jxr_linenumber" name="L218" href="#L218">218</a>     defaultExceptionTranslator.setMessageSources(messageSources);
-<a class="jxr_linenumber" name="L219" href="#L219">219</a>     defaultExceptionTranslator.setMessageInterpolator(<strong class="jxr_keyword">new</strong> SpelMessageInterpolator());
+<a class="jxr_linenumber" name="L219" href="#L219">219</a>     defaultExceptionTranslator.setMessageInterpolator(<strong class="jxr_keyword">new</strong> <a href="../../../../../../com/yirendai/oss/lib/common/msginterpolate/SpelMessageInterpolator.html">SpelMessageInterpolator</a>());
 <a class="jxr_linenumber" name="L220" href="#L220">220</a>     <strong class="jxr_keyword">return</strong> defaultExceptionTranslator;
 <a class="jxr_linenumber" name="L221" href="#L221">221</a>   }
 <a class="jxr_linenumber" name="L222" href="#L222">222</a> 
 <a class="jxr_linenumber" name="L223" href="#L223">223</a>   <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> TypeSafeCookie&lt;ResolvedError&gt; buildResolvedErrorCookie( <em class="jxr_comment">//</em>
-<a class="jxr_linenumber" name="L224" href="#L224">224</a>     <strong class="jxr_keyword">final</strong> DomainResolver domainResolver, <strong class="jxr_keyword">final</strong> ObjectMapper objectMapper) {
+<a class="jxr_linenumber" name="L224" href="#L224">224</a>     <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/webmvc/api/DomainResolver.html">DomainResolver</a> domainResolver, <strong class="jxr_keyword">final</strong> ObjectMapper objectMapper) {
 <a class="jxr_linenumber" name="L225" href="#L225">225</a>     <strong class="jxr_keyword">final</strong> JsonToken&lt;ResolvedError&gt; jsonToken = <strong class="jxr_keyword">new</strong> JsonToken&lt;&gt;(ResolvedError.<strong class="jxr_keyword">class</strong>, objectMapper);
 <a class="jxr_linenumber" name="L226" href="#L226">226</a>     <strong class="jxr_keyword">final</strong> UrlEncodedToken&lt;ResolvedError&gt; urlEncodedToken = <strong class="jxr_keyword">new</strong> UrlEncodedToken&lt;&gt;(jsonToken);
 <a class="jxr_linenumber" name="L227" href="#L227">227</a>     <strong class="jxr_keyword">final</strong> <strong class="jxr_keyword">int</strong> maxAge = (<strong class="jxr_keyword">int</strong>) DAYS.toSeconds(1L);
