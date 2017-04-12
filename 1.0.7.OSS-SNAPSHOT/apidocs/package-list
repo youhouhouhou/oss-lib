@@ -1,13 +1,4 @@
 com.yirendai.oss.boot.autoconfigure
-com.yirendai.oss.lib.adminclient.starter
 com.yirendai.oss.lib.common
 com.yirendai.oss.lib.common.crypto
 com.yirendai.oss.lib.common.msginterpolate
-com.yirendai.oss.lib.histrix.config
-com.yirendai.oss.lib.histrix.spring.config
-com.yirendai.oss.lib.log4j2.jmx
-com.yirendai.oss.lib.log4j2.starter
-com.yirendai.oss.lib.swagger
-com.yirendai.oss.lib.swagger.model
-com.yirendai.oss.lib.swagger.starter
-com.yirendai.oss.lib.test
