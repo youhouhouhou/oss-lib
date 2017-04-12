@@ -1,1 +1,3 @@
-com.yirendai.oss.lib.adminclient.starter
+com.yirendai.oss.lib.swagger
+com.yirendai.oss.lib.swagger.model
+com.yirendai.oss.lib.swagger.starter

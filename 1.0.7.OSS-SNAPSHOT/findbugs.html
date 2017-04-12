@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20170413" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>oss-lib-adminclient &#x2013; FindBugs Bug Detector Report</title>
+    <title>oss-lib-swagger &#x2013; FindBugs Bug Detector Report</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -46,10 +46,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">DOCUMENTATION <b class="caret"></b></a>
         <ul class="dropdown-menu">
         
-                      <li>      <a href="README.html"  title="oss-lib-adminclient说明文档">oss-lib-adminclient说明文档</a>
-</li>
-                  
-                      <li>      <a href="ADMIN_CLIENT_CONFIGURATION.html"  title="oss-admin客户端配置说明">oss-admin客户端配置说明</a>
+                      <li>      <a href="README.html"  title="README">README</a>
 </li>
                           </ul>
       </li>
@@ -94,6 +91,8 @@
 </li>
                                   <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
 </li>
+                                  <li>      <a href="pmd.html"  title="PMD">PMD</a>
+</li>
                               </ul>
             </li>
                           </ul>
@@ -113,7 +112,7 @@
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
-                <h2>oss-lib-adminclient</h2>
+                <h2>oss-lib-swagger</h2>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -152,16 +151,9 @@
                               
       <li>
   
-                          <a href="README.html" title="oss-lib-adminclient说明文档">
+                          <a href="README.html" title="README">
           <span class="none"></span>
-        oss-lib-adminclient说明文档</a>
-            </li>
-                
-      <li>
-  
-                          <a href="ADMIN_CLIENT_CONFIGURATION.html" title="oss-admin客户端配置说明">
-          <span class="none"></span>
-        oss-admin客户端配置说明</a>
+        README</a>
             </li>
                                         <li class="nav-header">Project Documentation</li>
                                                                                                                                                                                             
@@ -171,7 +163,7 @@
           <span class="icon-chevron-right"></span>
         Project Information</a>
                   </li>
-                                                                                                                                                                                        
+                                                                                                                                                                                                          
       <li>
   
                           <a href="project-reports.html" title="Project Reports">
@@ -225,6 +217,13 @@
           <span class="none"></span>
         Tag List</a>
             </li>
+                    
+      <li>
+  
+                          <a href="pmd.html" title="PMD">
+          <span class="none"></span>
+        PMD</a>
+            </li>
               </ul>
         </li>
             </ul>
@@ -262,8 +261,8 @@
 <th>Errors</th>
 <th>Missing Classes</th></tr>
 <tr class="b">
-<td>2</td>
-<td>0</td>
+<td>17</td>
+<td>3</td>
 <td>0</td>
 <td>0</td></tr></table></div>
 <div class="section">
@@ -271,7 +270,49 @@
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>Class</th>
-<th>Bugs</th></tr></table></div>
+<th>Bugs</th></tr>
+<tr class="b">
+<td><a href="#com.yirendai.oss.lib.swagger.model.ApiOperationInfo">com.yirendai.oss.lib.swagger.model.ApiOperationInfo</a></td>
+<td>2</td></tr>
+<tr class="a">
+<td><a href="#com.yirendai.oss.lib.swagger.model.ApiOperationInfo$ApiOperationInfoBuilder">com.yirendai.oss.lib.swagger.model.ApiOperationInfo$ApiOperationInfoBuilder</a></td>
+<td>1</td></tr></table></div><a name="com.yirendai.oss.lib.swagger.model.ApiOperationInfo"></a>
+<div class="section">
+<h3><a name="com.yirendai.oss.lib.swagger.model.ApiOperationInfo"></a>com.yirendai.oss.lib.swagger.model.ApiOperationInfo</h3>
+<table border="0" class="table table-striped">
+<tr class="b">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="a">
+<td>com.yirendai.oss.lib.swagger.model.ApiOperationInfo.getTags() may expose internal representation by returning ApiOperationInfo.tags</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP">EI_EXPOSE_REP</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/swagger/model/ApiOperationInfo.html#L18">18</a></td>
+<td>Medium</td></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.swagger.model.ApiOperationInfo.setTags(String[]) may expose internal representation by storing an externally mutable object into ApiOperationInfo.tags</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/swagger/model/ApiOperationInfo.html#L12">12</a></td>
+<td>Medium</td></tr></table></div><a name="com.yirendai.oss.lib.swagger.model.ApiOperationInfoApiOperationInfoBuilder"></a>
+<div class="section">
+<h3><a name="com.yirendai.oss.lib.swagger.model.ApiOperationInfoApiOperationInfoBuilder"></a>com.yirendai.oss.lib.swagger.model.ApiOperationInfo$ApiOperationInfoBuilder</h3>
+<table border="0" class="table table-striped">
+<tr class="a">
+<th>Bug</th>
+<th>Category</th>
+<th>Details</th>
+<th>Line</th>
+<th>Priority</th></tr>
+<tr class="b">
+<td>com.yirendai.oss.lib.swagger.model.ApiOperationInfo$ApiOperationInfoBuilder.tags(String[]) may expose internal representation by storing an externally mutable object into ApiOperationInfo$ApiOperationInfoBuilder.tags</td>
+<td>MALICIOUS_CODE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#EI_EXPOSE_REP2">EI_EXPOSE_REP2</a></td>
+<td><a href="./xref/com/yirendai/oss/lib/swagger/model/ApiOperationInfo.html#L13">13</a></td>
+<td>Medium</td></tr></table></div>
                   </div>
             </div>
           </div>
