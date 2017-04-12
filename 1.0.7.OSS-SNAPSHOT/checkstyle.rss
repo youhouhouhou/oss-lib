@@ -19,20 +19,20 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>oss-lib-hystrix - Checkstyle report</title>
-    <link>https://github.com/home1-oss/oss-lib/oss-lib-hystrix</link>
-    <description>oss-lib-hystrix - Checkstyle report</description>
+    <title>oss-lib - Checkstyle report</title>
+    <link>https://github.com/home1-oss/oss-lib</link>
+    <description>oss-lib - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2017</copyright>
     <item>
-      <title>File: 6,
+      <title>File: 1,
              Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html</link>
+            <link>https://github.com/home1-oss/oss-lib/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/home1-oss/oss-lib/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,77 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#git.properties">git.properties</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#com.yirendai.oss.lib.histrix.config.HystrixApplicationListener.java">com/yirendai/oss/lib/histrix/config/HystrixApplicationListener.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#com.yirendai.oss.lib.histrix.config.HystrixProperty.java">com/yirendai/oss/lib/histrix/config/HystrixProperty.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#com.yirendai.oss.lib.histrix.config.SpringUtils.java">com/yirendai/oss/lib/histrix/config/SpringUtils.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#com.yirendai.oss.lib.histrix.spring.config.HystrixAutoConfiguration.java">com/yirendai/oss/lib/histrix/spring/config/HystrixAutoConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/home1-oss/oss-lib/oss-lib-hystrix/checkstyle.html#com.yirendai.oss.lib.histrix.config.HystrixDynamicEnvironmentProperties.java">com/yirendai/oss/lib/histrix/config/HystrixDynamicEnvironmentProperties.java</a>
+                  <a href="https://github.com/home1-oss/oss-lib/checkstyle.html#git.properties">git.properties</a>
                 </td>
                 <td>
                   0
