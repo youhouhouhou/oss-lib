@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20170412" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>oss-lib-errorhandle &#x2013; oss-lib-errorhandle</title>
+    <title>oss-lib-swagger &#x2013; oss-lib-swagger</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -48,9 +48,6 @@
         
                       <li>      <a href="README.html"  title="README">README</a>
 </li>
-                  
-                      <li>      <a href="CONTRIBUTION.html"  title="开发">开发</a>
-</li>
                           </ul>
       </li>
                       <li class="dropdown">
@@ -80,8 +77,6 @@
                       <li class="dropdown-submenu">
                                       <a href="project-reports.html"  title="Project Reports">Project Reports</a>
               <ul class="dropdown-menu">
-                                  <li>      <a href="jacoco/index.html"  title="JaCoCo">JaCoCo</a>
-</li>
                                   <li>      <a href="surefire-report.html"  title="Surefire Report">Surefire Report</a>
 </li>
                                   <li>      <a href="findbugs.html"  title="FindBugs">FindBugs</a>
@@ -93,8 +88,6 @@
                                   <li>      <a href="apidocs/index.html"  title="JavaDocs">JavaDocs</a>
 </li>
                                   <li>      <a href="xref/index.html"  title="Source Xref">Source Xref</a>
-</li>
-                                  <li>      <a href="xref-test/index.html"  title="Test Source Xref">Test Source Xref</a>
 </li>
                                   <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
 </li>
@@ -119,7 +112,7 @@
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
-                <h2>oss-lib-errorhandle</h2>
+                <h2>oss-lib-swagger</h2>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -160,13 +153,6 @@
   
             <a href="#"><span class="none"></span>README</a>
           </li>
-                
-      <li>
-  
-                          <a href="CONTRIBUTION.html" title="开发">
-          <span class="none"></span>
-        开发</a>
-            </li>
                                         <li class="nav-header">Project Documentation</li>
                                                                                                                                                                                             
       <li>
@@ -175,7 +161,7 @@
           <span class="icon-chevron-right"></span>
         Project Information</a>
                   </li>
-                                                                                                                                                                                                                                    
+                                                                                                                                                                                                
       <li>
   
                           <a href="project-reports.html" title="Project Reports">
@@ -202,134 +188,65 @@
                 
         <div id="bodyColumn"  class="span10" >
                                   
-            <h1>oss-lib-errorhandle</h1>
+            <h1>oss-lib-swagger</h1>
 
 <div class="section">
-<h2><a name="a"></a><a href="#a">&#x7814;&#x53d1;&#x80cc;&#x666f;</a></h2>
+<h2><a name="Indroduction"></a><a href="#indroduction">Indroduction</a></h2>
 
-<p>spring&#x6846;&#x67b6;&#x539f;&#x751f;&#x7684;&#x9519;&#x8bef;&#x5904;&#x7406;&#x5b9e;&#x73b0;&#x6bd4;&#x8f83;&#x7c97;&#x7cd9;, &#x53ea;&#x80fd;&#x6ee1;&#x8db3;&#x57fa;&#x672c;&#x9700;&#x6c42;.<br />&#x65e0;&#x6cd5;&#x5f88;&#x65b9;&#x4fbf;&#x5730;&#x9002;&#x7528;&#x4e8e;&#x524d;&#x540e;&#x7aef;&#x5206;&#x79bb;&#x7684;RESTful&#x5e94;&#x7528;&#x53ca;&#x90e8;&#x5206;&#x6216;&#x5168;&#x90e8;&#x4f7f;&#x7528;&#x6a21;&#x7248;&#x7684;&#x5e94;&#x7528;. </p>
-
-<p>&#x76ee;&#x524d;&#x5b58;&#x5728;&#x7684;&#x95ee;&#x9898;&#x6709;:<br />&#x6ca1;&#x6709;&#x4e00;&#x6574;&#x5957;&#x7684;&#x8de8;&#x8fdb;&#x7a0b;(RPC&#x6216;API&#x7f51;&#x5173;/&#x4ee3;&#x7406;)&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x8ddf;&#x8e2a;&#x673a;&#x5236;.<br />&#x9ed8;&#x8ba4;&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x5bf9;&#x7528;&#x6237;&#x4e0d;&#x591f;&#x76f4;&#x89c2;(&#x672a;&#x7ecf;&#x7ffb;&#x8bd1;).<br />&#x9ed8;&#x8ba4;&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x5bf9;&#x5f00;&#x53d1;&#x4eba;&#x5458;&#x4e0d;&#x591f;&#x5177;&#x4f53;.<br />&#x9ed8;&#x8ba4;&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x67e5;&#x770b;&#x4e0d;&#x591f;&#x4fbf;&#x6377;, &#x7ecf;&#x5e38;&#x9700;&#x8981;&#x53bb;&#x770b;&#x65e5;&#x5fd7;.<br />&#x4e0d;&#x80fd;&#x4fdd;&#x8bc1;&#x5728;&#x9519;&#x8bef;&#x53d1;&#x751f;&#x65f6;&#x8bb0;&#x5f55;&#x65e5;&#x5fd7;.<br />&#x5f88;&#x591a;&#x5f00;&#x53d1;&#x4eba;&#x5458;&#x4e0d;&#x4e86;&#x89e3;&#x6b63;&#x786e;&#x7684;&#x5904;&#x7406;&#x9519;&#x8bef;&#x7684;&#x65b9;&#x6cd5;, &#x8bef;&#x7528;&#x8f83;&#x591a;, &#x5728;&#x4e0d;&#x540c;&#x7684;&#x9879;&#x76ee;&#x4e2d;&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x7ed3;&#x6784;&#x4e0d;&#x7edf;&#x4e00;, &#x5728;&#x4e00;&#x4e9b;&#x9879;&#x76ee;&#x4e2d;&#x751a;&#x81f3;&#x9700;&#x8981;&#x5305;&#x88c5;&#x6240;&#x6709;&#x63a5;&#x53e3;&#x8fd4;&#x56de;&#x7684;&#x6570;&#x636e;, &#x65e0;&#x8bba;&#x662f;&#x5426;&#x51fa;&#x9519;&#x5747;&#x4f7f;&#x7528;HTTP200&#x72b6;&#x6001;&#x7801;. </p>
+<p>&#x901a;&#x8fc7;&#x5f15;&#x5165;oss-lib-swagger&#x81ea;&#x52a8;&#x751f;&#x6210;RESTful&#x7684;api&#x7684;&#x63a5;&#x53e3;&#x6587;&#x6863;,&#x51fa;&#x4e8e;&#x5b89;&#x5168;&#x7684;&#x8003;&#x8651;&#x751f;&#x6210;&#x73af;&#x5883;(production)&#x6682;&#x4e0d;&#x751f;&#x6210;api&#x6587;&#x6863;&#x3002;</p>
 </div>
 <div class="section">
-<h2><a name="a"></a><a href="#a">&#x8bbe;&#x8ba1;&#x76ee;&#x6807;</a></h2>
+<h2><a name="a"></a><a href="#a">&#x4f7f;&#x7528;&#x65b9;&#x5f0f;</a></h2>
 
-<p>&#x65e0;&#x8bba;&#x662f;&#x672c;&#x5730;&#x8c03;&#x7528;&#x8fd8;&#x662f;RPC, &#x6b63;&#x5e38;&#x6d41;&#x7a0b;&#x4e0e;&#x5f02;&#x5e38;&#x6d41;&#x7a0b;&#x5206;&#x5f00;, &#x9519;&#x8bef;&#x5168;&#x90e8;&#x5f52;&#x5f02;&#x5e38;&#x6d41;&#x7a0b;.<br />&#x5904;&#x7406;&#x4e09;&#x4e2a;&#x5c42;&#x6b21;&#x7684;&#x5f02;&#x5e38;: Container, Between Container and Component, Component.<br />&#x5904;&#x7406;&#x4e24;&#x79cd;&#x5f02;&#x5e38;: Framework/Util, Application(GenericError).<br />&#x652f;&#x6301;resource, restful, template, mixed&#x56db;&#x79cd;&#x5e94;&#x7528;. </p>
-
-<p>&#x5bf9;&#x4e8e;mixed&#x5e94;&#x7528; &#x6839;&#x636e;&#x8bf7;&#x6c42;&#x81ea;&#x52a8;&#x51b3;&#x5b9a; &#x4f7f;&#x7528; &#x9519;&#x8bef;&#x9875; &#x6216; Restful&#x9519;&#x8bef;&#x4fe1;&#x606f;.<br />&#x5bf9;&#x4e8e;restful&#x9519;&#x8bef;&#x4fe1;&#x606f; &#x4f7f;&#x7528;&#x5185;&#x5bb9;&#x534f;&#x5546;&#x786e;&#x5b9a;&#x8fd4;&#x56de;JSON&#x6216;XML.<br />&#x652f;&#x6301;spring-boot&#x914d;&#x7f6e;. </p>
-
-<p>&#x4f7f;&#x7528;ResolvedError&#x8868;&#x793a;&#x7ecf;&#x8fc7;&#x89e3;&#x6790;&#x7684;&#x9519;&#x8bef;&#x4fe1;&#x606f;.<br />&#x901a;&#x8fc7;&#x5b9e;&#x73b0;feign.codec.ErrorDecoder, &#x5b9e;&#x73b0;RPC&#x5f02;&#x5e38;&#x4fe1;&#x606f;&#x4f20;&#x9012;.<br />&#x652f;&#x6301;RestTemplate&#x5f02;&#x5e38;&#x5904;&#x7406;&#x673a;&#x5236;. </p>
-
-<p>&#x5b9e;&#x73b0;&#x5e38;&#x89c1;&#x5f02;&#x5e38;&#x4fe1;&#x606f;&#x7684;&#x8f6c;&#x8bd1; &#x901a;&#x8fc7;resolver&#x8fdb;&#x884c; &#x5f02;&#x5e38;&#x7c7b;&#x578b;-&gt;ResolvedError &#x8f6c;&#x6362;.<br />ResolvedError&#x5305;&#x542b;trace, path[]&#x4fe1;&#x606f; &#x5728;&#x975e;&#x751f;&#x6210;&#x73af;&#x5883;&#x663e;&#x793a;&#x5177;&#x4f53;&#x7684;&#x9519;&#x8bef;&#x4fe1;&#x606f;.<br />&#x5728;&#x751f;&#x4ea7;&#x73af;&#x5883;&#x901a;&#x8fc7;&#x65e5;&#x5fd7;&#x8bb0;&#x5f55;&#x5177;&#x4f53;&#x7684;&#x9519;&#x8bef;&#x4fe1;&#x606f;. </p>
-
-<p>&#x6d88;&#x606f;&#x6620;&#x5c04; yml? &#x652f;&#x6301;&#x901a;&#x914d;&#x7b26;? &#x57fa;&#x4e8e;&#x7c7b;&#x578b;&#x548c;message&#x6620;&#x5c04;?<br />&#x652f;&#x6301;&#x81ea;&#x5b9a;&#x4e49;ExceptionResolver. </p>
+<p>&#x76f4;&#x63a5;&#x5728;spring boot&#x5de5;&#x7a0b;&#x4e2d;&#x6dfb;&#x52a0;&#x4f9d;&#x8d56;,&#x5728;&#x975e;production&#x53d1;&#x5e03;&#x65f6;&#x4f1a;&#x751f;&#x6210;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x6863;&#x3002;  1. &#x6dfb;&#x52a0;&#x4f9d;&#x8d56;  2. &#x90e8;&#x7f72;&#x5e94;&#x7528;  3. &#x8bbf;&#x95ee;swagger-ui: <a class="externalLink" href="http://127.0.0.1:8080:8080/swagger-ui.html">http://127.0.0.1:8080:8080/swagger-ui.html</a>  &#x63a5;&#x53e3;&#x8bf4;&#x660e;&#x6587;&#x6863;  <img src="src/readme/swagger1.png" alt="configserver.png" />  swagger-ui&#x4ea4;&#x4e92;&#x8bf7;&#x6c42;&#x7ed3;&#x679c;  <img src="src/readme/swagger2.png" alt="configserver.png" /><br /> 4. &#x8bbf;&#x95ee;api-docs: <a class="externalLink" href="http://127.0.0.1:8080:8080/v2/api-docs">http://127.0.0.1:8080:8080/v2/api-docs</a>  api-docks  <img src="src/readme/swagger3.png" alt="configserver.png" />  swagger.ed&#x63d2;&#x4ef6;&#x793a;&#x610f;&#x56fe;  <img src="src/readme/swagger4.png" alt="configserver.png" /></p>
 </div>
 <div class="section">
-<h2><a name="spring-boot"></a>spring-boot&#x9ed8;&#x8ba4;&#x5b9e;&#x73b0;</h2>
-
-<p>org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration<br />org.springframework.boot.autoconfigure.web.DefaultErrorAttributes &#x5b9a;&#x4e49;&#x4e86;&#x9ed8;&#x8ba4;&#x9519;&#x8bef;&#x4fe1;&#x606f;&#x5185;&#x5bb9;<br />org.springframework.boot.autoconfigure.web.BasicErrorController &#x5b9a;&#x4e49;&#x4e86;&#x9ed8;&#x8ba4;&#x9519;&#x8bef;&#x9875;&#x9762; </p>
+<h2><a name="a"></a><a href="#a">&#x4f9d;&#x8d56;</a></h2>
 
 <div class="source">
-<div class="source"><pre class="prettyprint linenums">DefaultErrorAttributes:
-{
-    timestamp: epoch (new Date()),
-    status: requestAttributes.javax.servlet.error.status_code,
-    error: HttpStatus.valueOf(status).getReasonPhrase(),
-    exception: requestAttributes.javax.servlet.error.exception,
-    message: Throwable.getMessage | BindingResult.getObjectName + BindingResult.getErrorCount | No errors | requestAttributes.javax.servlet.error.message,
-    errors: BindingResult.getAllErrors,
-    trace: Throwable.printStackTrace,
-    path: requestAttributes.javax.servlet.error.request_uri
+<div class="source"><pre class="prettyprint linenums">    &lt;dependency&gt;
+        &lt;groupId&gt;com.yirendai.oss.lib&lt;/groupId&gt;
+        &lt;artifactId&gt;oss-lib-swagger-spring-boot-${spring-boot.version}&lt;/artifactId&gt;
+    &lt;/dependency&gt;
+</pre></div></div>
+
+<p>application.yml:</p>
+
+<div class="source">
+<div class="source"><pre class="prettyprint linenums">springfox.documentation.swagger.v1.path: '/api-docs'
+springfox.documentation.swagger.v2.path: '/v2/api-docs'
+</pre></div></div>
+
+<blockquote>
+  
+<p>NOTES:&#x5982;&#x679c;&#x9879;&#x76ee;&#x5f00;&#x542f;&#x4e86;&#x81ea;&#x5b9a;&#x4e49;&#x7684;SpringMVC&#xff0c;&#x5373;<tt>@EnableWebMvc</tt>&#xff0c;&#x9700;&#x8981;&#x914d;&#x7f6e;&#x6307;&#x5b9a;swagger-ui.html&#x7684;&#x8def;&#x5f84;&#xff0c;&#x5982;&#x4e0b;&#xff1a;</p>
+</blockquote>
+
+<div class="source">
+<div class="source"><pre class="prettyprint linenums">@Configuration
+@EnableWebMvc
+public class WebMvcConfiguration extends WebMvcConfigurerAdapter {
+
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler(&quot;swagger-ui.html&quot;).addResourceLocations(&quot;classpath:/META-INF/resources/&quot;);
+        registry.addResourceHandler(&quot;/webjars/**&quot;).addResourceLocations(&quot;classpath:/META-INF/resources/webjars/&quot;);
+        super.addResourceHandlers(registry);
+    }
+
 }
 </pre></div></div>
 </div>
 <div class="section">
-<h2><a name="a"></a><a href="#a">&#x6211;&#x4eec;&#x7684;&#x6269;&#x5c55;</a></h2>
+<h2><a name="a"></a><a href="#a">&#x53c2;&#x8003;&#x6587;&#x6863;</a></h2>
 
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">ExtendedErrorAttributes:
-{
-    datetime: ISO8601,
-    headers:,
-    localizedMessage:,
-    tracks:
-}
+<p><a class="externalLink" href="http://springfox.github.io/springfox/docs/current/">official docs</a></p>
 
-ApplicationException:
-{
-    status:,
-    template:,
-    contextVariables:
-}
-</pre></div></div>
-</div>
-<div class="section">
-<h2><a name="App_type"></a><a href="#app-type">App type</a></h2>
+<p><a class="externalLink" href="http://editor.swagger.io">swagger-editor</a> <a class="externalLink" href="http://mvpotter.com/post/2016/10/springfox-plugin-for-adding-auth-params/">springfox-plugin-for-adding-auth-params</a></p>
 
-<p>Resource  RESTful<br /> Template<br /> Mixed </p>
-</div>
-<div class="section">
-<h2><a name="RESTful_error_info"></a><a href="#restful-error-info">RESTful error info</a></h2>
+<p><a class="externalLink" href="http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/">usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis</a></p>
 
-<p>JSON error info. TODO<br /> XML error info. TODO </p>
-</div>
-<div class="section">
-<h2><a name="Template_error_info_Error_page"></a>Template error info (Error page)</h2>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">server.error.path
-</pre></div></div>
-</div>
-<div class="section">
-<h2><a name="Container__Server_error"></a><a href="#container-server-error">Container / Server error</a></h2>
-
-<p>Errors that can&#x2019;t handle by oss-lib-errorhandle. TODO </p>
-</div>
-<div class="section">
-<h2><a name="Framework__Library_error"></a><a href="#framework-library-error">Framework / Library error</a></h2>
-
-<p>Build-in default error messages. TODO<br /> User defined error messages for unfamiliar framework/library. TODO </p>
-</div>
-<div class="section">
-<h2><a name="Validation_error"></a><a href="#validation-error">Validation error</a></h2>
-
-<p>TODO</p>
-</div>
-<div class="section">
-<h2><a name="Status_and_message_template"></a><a href="#status-and-message-template">Status and message template</a></h2>
-
-<p>TODO</p>
-</div>
-<div class="section">
-<h2><a name="App_error"></a><a href="#app-error">App error</a></h2>
-
-<p>Brief introduction to <i>ApplicationError</i> TODO<br />? User defined <i>ApplicationErrorBuilder</i> TODO<br />About <i>ConcreteExceptionResolver</i> TODO </p>
-</div>
-<div class="section">
-<h2><a name="UI__Front-end_development"></a>UI / Front-end development</h2>
-
-<p>How to handle RESTful error. TODO<br /> How to handle form validation error. TODO </p>
-</div>
-<div class="section">
-<h2><a name="App_error_properties"></a><a href="#app-error-properties">App error properties</a></h2>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">app.error.messages=classpath:app.properties
-app.error.handlerEnabled=false # Experimental
-</pre></div></div>
-</div>
-<div class="section">
-<h2><a name="Used_spring-boot_properties"></a>Used spring-boot properties</h2>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">server.error.path=/error
-server.error.includeStacktrace=NEVER # NEVER | ALWAYS | ON_TRACE_PARAM, ON_TRACE_PARAM add trace information when the &quot;trace&quot; request parameter is &quot;true&quot;.
-</pre></div></div>
-</div>
-<div class="section">
-<h2><a name="RPC"></a><a href="#rpc">RPC</a></h2>
-
-<p>TODO </p></div>
+<p><a class="externalLink" href="https://github.com/springfox/springfox/issues/511">Could it work without RequestMapping annotations? #511</a> <a class="externalLink" href="https://github.com/springfox/springfox/issues/1335">Ability to add custom ApiDescriptions not described via request mappings #1335</a></p></div>
                   </div>
             </div>
           </div>

@@ -19,20 +19,20 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>oss-lib-errorhandle - Checkstyle report</title>
-    <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle</link>
-    <description>oss-lib-errorhandle - Checkstyle report</description>
+    <title>oss-lib-swagger - Checkstyle report</title>
+    <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger</link>
+    <description>oss-lib-swagger - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2017</copyright>
     <item>
-      <title>File: 35,
+      <title>File: 10,
              Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html</link>
+            <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.ApplicationErrorExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/ApplicationErrorExceptionResolver.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiResponse.java">com/yirendai/oss/lib/swagger/model/ApiResponse.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ResolvedErrorException.java">com/yirendai/oss/lib/errorhandle/api/ResolvedErrorException.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#git.properties">git.properties</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ApplicationException.java">com/yirendai/oss/lib/errorhandle/api/ApplicationException.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.ManagementConfiguration.java">com/yirendai/oss/lib/swagger/starter/ManagementConfiguration.java</a>
                 </td>
                 <td>
                   0
@@ -88,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ConcreteExceptionResolver.java">com/yirendai/oss/lib/errorhandle/api/ConcreteExceptionResolver.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.AnnotationCheckListener.java">com/yirendai/oss/lib/swagger/starter/AnnotationCheckListener.java</a>
                 </td>
                 <td>
                   0
@@ -102,7 +102,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.DefaultExceptionHandler.java">com/yirendai/oss/lib/errorhandle/internal/DefaultExceptionHandler.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiRequest.java">com/yirendai/oss/lib/swagger/model/ApiRequest.java</a>
                 </td>
                 <td>
                   0
@@ -116,7 +116,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.starter.ErrorHandleAutoConfiguration.java">com/yirendai/oss/lib/errorhandle/starter/ErrorHandleAutoConfiguration.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.Swagger2DocumentationAutoConfiguration.java">com/yirendai/oss/lib/swagger/starter/Swagger2DocumentationAutoConfiguration.java</a>
                 </td>
                 <td>
                   0
@@ -130,7 +130,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.AbstractConcreteExceptionResolver.java">com/yirendai/oss/lib/errorhandle/api/AbstractConcreteExceptionResolver.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.starter.NoManagementConfiguration.java">com/yirendai/oss/lib/swagger/starter/NoManagementConfiguration.java</a>
                 </td>
                 <td>
                   0
@@ -144,7 +144,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#git.properties">git.properties</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.model.ApiOperationInfo.java">com/yirendai/oss/lib/swagger/model/ApiOperationInfo.java</a>
                 </td>
                 <td>
                   0
@@ -158,7 +158,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#errorhandle.default.properties">errorhandle/default.properties</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.ManualRequestHandler.java">com/yirendai/oss/lib/swagger/ManualRequestHandler.java</a>
                 </td>
                 <td>
                   0
@@ -172,357 +172,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.HttpHeader.java">com/yirendai/oss/lib/errorhandle/api/HttpHeader.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.rpc.GenericFeignErrorDecoder.java">com/yirendai/oss/lib/errorhandle/internal/rpc/GenericFeignErrorDecoder.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.RestfulExceptionHandler.java">com/yirendai/oss/lib/errorhandle/internal/RestfulExceptionHandler.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.translator.DefaultExceptionTranslator.java">com/yirendai/oss/lib/errorhandle/internal/translator/DefaultExceptionTranslator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.HttpRequestMethodNotSupportedExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/HttpRequestMethodNotSupportedExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.TemplateExceptionHandler.java">com/yirendai/oss/lib/errorhandle/internal/TemplateExceptionHandler.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ResolvedError.java">com/yirendai/oss/lib/errorhandle/api/ResolvedError.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.starter.CompositeExceptionResolverFactoryBean.java">com/yirendai/oss/lib/errorhandle/starter/CompositeExceptionResolverFactoryBean.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.starter.ExceptionHandlerConfiguration.java">com/yirendai/oss/lib/errorhandle/starter/ExceptionHandlerConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ValidationError.java">com/yirendai/oss/lib/errorhandle/api/ValidationError.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.StackTraceIndicator.java">com/yirendai/oss/lib/errorhandle/api/StackTraceIndicator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#errorhandle.default_zh.properties">errorhandle/default_zh.properties</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.CompositeExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/CompositeExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.BaseErrorController.java">com/yirendai/oss/lib/errorhandle/internal/BaseErrorController.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.DefaultExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/DefaultExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.starter.ExceptionResolverConfiguration.java">com/yirendai/oss/lib/errorhandle/starter/ExceptionResolverConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ApplicationExceptions.java">com/yirendai/oss/lib/errorhandle/api/ApplicationExceptions.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ExceptionTranslator.java">com/yirendai/oss/lib/errorhandle/api/ExceptionTranslator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.rpc.FeignErrorDecoderConfiguration.java">com/yirendai/oss/lib/errorhandle/internal/rpc/FeignErrorDecoderConfiguration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.ContentCachingRequestFilter.java">com/yirendai/oss/lib/errorhandle/internal/ContentCachingRequestFilter.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.MethodArgumentNotValidExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/MethodArgumentNotValidExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.ExtendedErrorAttributes.java">com/yirendai/oss/lib/errorhandle/internal/ExtendedErrorAttributes.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.DefaultStackTraceIndicator.java">com/yirendai/oss/lib/errorhandle/internal/DefaultStackTraceIndicator.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.ConstraintViolationExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/ConstraintViolationExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.api.ExceptionResolver.java">com/yirendai/oss/lib/errorhandle/api/ExceptionResolver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-errorhandle/checkstyle.html#com.yirendai.oss.lib.errorhandle.internal.resolver.HttpMediaTypeNotSupportedExceptionResolver.java">com/yirendai/oss/lib/errorhandle/internal/resolver/HttpMediaTypeNotSupportedExceptionResolver.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger/checkstyle.html#com.yirendai.oss.lib.swagger.SwaggerUtils.java">com/yirendai/oss/lib/swagger/SwaggerUtils.java</a>
                 </td>
                 <td>
                   0
