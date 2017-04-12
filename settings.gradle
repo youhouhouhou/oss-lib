@@ -19,15 +19,12 @@ if ("${gradle.ext.springBootVersion}" ==~ /1\.3\.[0-9]+\..+/) {
 }
 
 include 'oss-lib-common'
-include 'oss-lib-swagger'
 include 'oss-lib-test'
-include 'oss-lib-log4j2'
-include 'oss-lib-hystrix'
 
-if("${gradle.ext.springBootVersion}" ==~ /1\.4\.[0-9]+\..+/) {
-  println "include oss-lib-adminclient"
-
-  include 'oss-lib-adminclient'
-} else {
-  println "not include oss-lib-adminclient"
-}
+//if("${gradle.ext.springBootVersion}" ==~ /1\.4\.[0-9]+\..+/) {
+//  println "include oss-lib-x"
+//
+//  include 'oss-lib-x'
+//} else {
+//  println "not include oss-lib-x"
+//}
