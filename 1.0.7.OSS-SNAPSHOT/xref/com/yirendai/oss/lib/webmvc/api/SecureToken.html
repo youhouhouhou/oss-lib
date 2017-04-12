@@ -19,14 +19,14 @@
 <a class="jxr_linenumber" name="L11" href="#L11">11</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> SecureToken&lt;T&gt; <strong class="jxr_keyword">implements</strong> TypeSafeToken&lt;T&gt; {
 <a class="jxr_linenumber" name="L12" href="#L12">12</a>  
 <a class="jxr_linenumber" name="L13" href="#L13">13</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> TypeSafeToken&lt;T&gt; token;
-<a class="jxr_linenumber" name="L14" href="#L14">14</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/common/crypto/EncodeCipher.html">EncodeCipher</a> cipher;
+<a class="jxr_linenumber" name="L14" href="#L14">14</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">final</strong> EncodeCipher cipher;
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>  
-<a class="jxr_linenumber" name="L16" href="#L16">16</a>    <strong class="jxr_keyword">public</strong> <a href="../../../../../../com/yirendai/oss/lib/webmvc/api/SecureToken.html">SecureToken</a>(<strong class="jxr_keyword">final</strong> TypeSafeToken&lt;T&gt; token, <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/common/crypto/EncodeCipher.html">EncodeCipher</a> cipher) {
+<a class="jxr_linenumber" name="L16" href="#L16">16</a>    <strong class="jxr_keyword">public</strong> <a href="../../../../../../com/yirendai/oss/lib/webmvc/api/SecureToken.html">SecureToken</a>(<strong class="jxr_keyword">final</strong> TypeSafeToken&lt;T&gt; token, <strong class="jxr_keyword">final</strong> EncodeCipher cipher) {
 <a class="jxr_linenumber" name="L17" href="#L17">17</a>      <strong class="jxr_keyword">this</strong>.token = token;
 <a class="jxr_linenumber" name="L18" href="#L18">18</a>      <strong class="jxr_keyword">this</strong>.cipher = cipher;
 <a class="jxr_linenumber" name="L19" href="#L19">19</a>    }
 <a class="jxr_linenumber" name="L20" href="#L20">20</a>  
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> String encrypt(<strong class="jxr_keyword">final</strong> String value, <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/common/crypto/EncodeCipher.html">EncodeCipher</a> cipher) {
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> String encrypt(<strong class="jxr_keyword">final</strong> String value, <strong class="jxr_keyword">final</strong> EncodeCipher cipher) {
 <a class="jxr_linenumber" name="L22" href="#L22">22</a>      <strong class="jxr_keyword">final</strong> String result;
 <a class="jxr_linenumber" name="L23" href="#L23">23</a>      <strong class="jxr_keyword">if</strong> (value == <strong class="jxr_keyword">null</strong>) {
 <a class="jxr_linenumber" name="L24" href="#L24">24</a>        result = <strong class="jxr_keyword">null</strong>;
@@ -40,7 +40,7 @@
 <a class="jxr_linenumber" name="L32" href="#L32">32</a>      <strong class="jxr_keyword">return</strong> result;
 <a class="jxr_linenumber" name="L33" href="#L33">33</a>    }
 <a class="jxr_linenumber" name="L34" href="#L34">34</a>  
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> String decrypt(<strong class="jxr_keyword">final</strong> String value, <strong class="jxr_keyword">final</strong> <a href="../../../../../../com/yirendai/oss/lib/common/crypto/EncodeCipher.html">EncodeCipher</a> cipher) {
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>    <strong class="jxr_keyword">private</strong> <strong class="jxr_keyword">static</strong> String decrypt(<strong class="jxr_keyword">final</strong> String value, <strong class="jxr_keyword">final</strong> EncodeCipher cipher) {
 <a class="jxr_linenumber" name="L36" href="#L36">36</a>      <strong class="jxr_keyword">final</strong> String result;
 <a class="jxr_linenumber" name="L37" href="#L37">37</a>      <strong class="jxr_keyword">if</strong> (value == <strong class="jxr_keyword">null</strong>) {
 <a class="jxr_linenumber" name="L38" href="#L38">38</a>        result = <strong class="jxr_keyword">null</strong>;

@@ -19,20 +19,20 @@ under the License.
 -->
 <rss version="0.91">
   <channel>
-    <title>oss-lib-adminclient - Checkstyle report</title>
-    <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient</link>
-    <description>oss-lib-adminclient - Checkstyle report</description>
+    <title>oss-lib-webmvc - Checkstyle report</title>
+    <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc</link>
+    <description>oss-lib-webmvc - Checkstyle report</description>
     <language>en-us</language>
     <copyright>&#169;2017</copyright>
     <item>
-      <title>File: 3,
+      <title>File: 20,
              Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
-            <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient/checkstyle.html</link>
+            <link>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html</link>
       <description>
-        <p>Click <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient/checkstyle.html">here</a> for the full Checkstyle report.</p>
+        <p>Click <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html">here</a> for the full Checkstyle report.</p>
 
         <table summary="Files" boder="1">
           <thead>
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient/checkstyle.html#git.properties">git.properties</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.DomainResolver.java">com/yirendai/oss/lib/webmvc/api/DomainResolver.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient/checkstyle.html#com.yirendai.oss.lib.adminclient.starter.AdminClientAutoConfiguration.java">com/yirendai/oss/lib/adminclient/starter/AdminClientAutoConfiguration.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.Jetty9ServerCustomizers.java">com/yirendai/oss/lib/webmvc/api/Jetty9ServerCustomizers.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,245 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-adminclient/checkstyle.html#com.yirendai.oss.lib.adminclient.starter.ConfigServerPostProcessor.java">com/yirendai/oss/lib/adminclient/starter/ConfigServerPostProcessor.java</a>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.JsonWebToken.java">com/yirendai/oss/lib/webmvc/api/JsonWebToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.JsonToken.java">com/yirendai/oss/lib/webmvc/api/JsonToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.internal.DefaultRequestResolver.java">com/yirendai/oss/lib/webmvc/internal/DefaultRequestResolver.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#org.springframework.web.HttpMessageConverterUtils.java">org/springframework/web/HttpMessageConverterUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.TypeSafeCookie.java">com/yirendai/oss/lib/webmvc/api/TypeSafeCookie.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.UrlEncodedToken.java">com/yirendai/oss/lib/webmvc/api/UrlEncodedToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.TypeSafeToken.java">com/yirendai/oss/lib/webmvc/api/TypeSafeToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.internal.DefaultHttpEntityMethodProcessor.java">com/yirendai/oss/lib/webmvc/internal/DefaultHttpEntityMethodProcessor.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.TokenBasedCookie.java">com/yirendai/oss/lib/webmvc/api/TokenBasedCookie.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.starter.Jackson2Configuration.java">com/yirendai/oss/lib/webmvc/starter/Jackson2Configuration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#org.springframework.http.converter.Utf8StringHttpMessageConverter.java">org/springframework/http/converter/Utf8StringHttpMessageConverter.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.RequestResolver.java">com/yirendai/oss/lib/webmvc/api/RequestResolver.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.SecureToken.java">com/yirendai/oss/lib/webmvc/api/SecureToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#git.properties">git.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.starter.WebApplicationAutoConfiguration.java">com/yirendai/oss/lib/webmvc/starter/WebApplicationAutoConfiguration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.api.StringToken.java">com/yirendai/oss/lib/webmvc/api/StringToken.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.starter.GsonConfiguration.java">com/yirendai/oss/lib/webmvc/starter/GsonConfiguration.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc/checkstyle.html#com.yirendai.oss.lib.webmvc.internal.DefaultDomainResolver.java">com/yirendai/oss/lib/webmvc/internal/DefaultDomainResolver.java</a>
                 </td>
                 <td>
                   0
