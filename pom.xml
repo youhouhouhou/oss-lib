@@ -13,8 +13,22 @@
     <artifactId>oss-lib</artifactId>
     <name>oss-lib</name>
     <packaging>pom</packaging>
-    <url>https://github.com/Yirendai/oss-lib</url>
+    <url>https://github.com/home1-oss/oss-lib</url>
     <version>1.0.7.OSS-SNAPSHOT</version>
+
+    <scm>
+        <connection>scm:git:https://github.com/home1-oss/oss-lib.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/home1-oss/oss-lib.git</developerConnection>
+        <url>https://github.com/home1-oss/oss-lib</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/home1-oss/oss-lib/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/home1-oss/oss-lib</url>
+    </ciManagement>
 
     <modules>
         <module>oss-lib-adminclient</module>
