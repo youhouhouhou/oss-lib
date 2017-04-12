@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20170413" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>oss-lib-swagger &#x2013; oss-lib-swagger</title>
+    <title>oss-lib-test &#x2013; oss-lib-test</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -77,6 +77,8 @@
                       <li class="dropdown-submenu">
                                       <a href="project-reports.html"  title="Project Reports">Project Reports</a>
               <ul class="dropdown-menu">
+                                  <li>      <a href="jacoco/index.html"  title="JaCoCo">JaCoCo</a>
+</li>
                                   <li>      <a href="surefire-report.html"  title="Surefire Report">Surefire Report</a>
 </li>
                                   <li>      <a href="findbugs.html"  title="FindBugs">FindBugs</a>
@@ -89,9 +91,9 @@
 </li>
                                   <li>      <a href="xref/index.html"  title="Source Xref">Source Xref</a>
 </li>
-                                  <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
+                                  <li>      <a href="xref-test/index.html"  title="Test Source Xref">Test Source Xref</a>
 </li>
-                                  <li>      <a href="pmd.html"  title="PMD">PMD</a>
+                                  <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
 </li>
                               </ul>
             </li>
@@ -112,7 +114,7 @@
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
-                <h2>oss-lib-swagger</h2>
+                <h2>oss-lib-test</h2>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -161,7 +163,7 @@
           <span class="icon-chevron-right"></span>
         Project Information</a>
                   </li>
-                                                                                                                                                                                                
+                                                                                                                                                                                                                  
       <li>
   
                           <a href="project-reports.html" title="Project Reports">
@@ -188,65 +190,13 @@
                 
         <div id="bodyColumn"  class="span10" >
                                   
-            <h1>oss-lib-swagger</h1>
+            <h1>oss-lib-test</h1>
 
-<div class="section">
-<h2><a name="Indroduction"></a><a href="#indroduction">Indroduction</a></h2>
+<p>&#x652f;&#x6301;&#x6d4b;&#x8bd5;&#x7684;&#x5e93;, &#x6539;&#x8fdb;&#x4e86;TestRestTemplate&#x7684;&#x517c;&#x5bb9;&#x6027;, &#x4ee5;&#x53ca;&#x5176;&#x5b83;&#x5c0f;&#x529f;&#x80fd;.</p>
 
-<p>&#x901a;&#x8fc7;&#x5f15;&#x5165;oss-lib-swagger&#x81ea;&#x52a8;&#x751f;&#x6210;RESTful&#x7684;api&#x7684;&#x63a5;&#x53e3;&#x6587;&#x6863;,&#x51fa;&#x4e8e;&#x5b89;&#x5168;&#x7684;&#x8003;&#x8651;&#x751f;&#x6210;&#x73af;&#x5883;(production)&#x6682;&#x4e0d;&#x751f;&#x6210;api&#x6587;&#x6863;&#x3002;</p>
-</div>
-<div class="section">
-<h2><a name="a"></a><a href="#a">&#x4f7f;&#x7528;&#x65b9;&#x5f0f;</a></h2>
+<p>spring-boot-1.3.x&#x5347;&#x7ea7;&#x5230;spring-boot-1.4.x&#x65f6;, &#x6d4b;&#x8bd5;&#x6846;&#x67b6;&#x53d1;&#x751f;&#x4e86;&#x6bd4;&#x8f83;&#x5927;&#x5230;&#x53d8;&#x5316;, API&#x4e0d;&#x517c;&#x5bb9;. &#x4f46;&#x662f;oss-lib&#x8981;&#x9488;&#x5bf9;&#x591a;&#x4e2a;spring-boot&#x8fdb;&#x884c;&#x6d4b;&#x8bd5;&#x548c;&#x6784;&#x5efa;, &#x6240;&#x4ee5;&#x5efa;&#x7acb;&#x4e00;&#x4e2a;<tt>RestTemplateForTest</tt>&#x5c4f;&#x853d;spring-boot&#x7248;&#x672c;&#x9020;&#x6210;&#x7684;&#x5dee;&#x5f02;.</p>
 
-<p>&#x76f4;&#x63a5;&#x5728;spring boot&#x5de5;&#x7a0b;&#x4e2d;&#x6dfb;&#x52a0;&#x4f9d;&#x8d56;,&#x5728;&#x975e;production&#x53d1;&#x5e03;&#x65f6;&#x4f1a;&#x751f;&#x6210;&#x5bf9;&#x5e94;&#x7684;&#x6587;&#x6863;&#x3002;  1. &#x6dfb;&#x52a0;&#x4f9d;&#x8d56;  2. &#x90e8;&#x7f72;&#x5e94;&#x7528;  3. &#x8bbf;&#x95ee;swagger-ui: <a class="externalLink" href="http://127.0.0.1:8080:8080/swagger-ui.html">http://127.0.0.1:8080:8080/swagger-ui.html</a>  &#x63a5;&#x53e3;&#x8bf4;&#x660e;&#x6587;&#x6863;  <img src="src/readme/swagger1.png" alt="configserver.png" />  swagger-ui&#x4ea4;&#x4e92;&#x8bf7;&#x6c42;&#x7ed3;&#x679c;  <img src="src/readme/swagger2.png" alt="configserver.png" /><br /> 4. &#x8bbf;&#x95ee;api-docs: <a class="externalLink" href="http://127.0.0.1:8080:8080/v2/api-docs">http://127.0.0.1:8080:8080/v2/api-docs</a>  api-docks  <img src="src/readme/swagger3.png" alt="configserver.png" />  swagger.ed&#x63d2;&#x4ef6;&#x793a;&#x610f;&#x56fe;  <img src="src/readme/swagger4.png" alt="configserver.png" /></p>
-</div>
-<div class="section">
-<h2><a name="a"></a><a href="#a">&#x4f9d;&#x8d56;</a></h2>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">    &lt;dependency&gt;
-        &lt;groupId&gt;com.yirendai.oss.lib&lt;/groupId&gt;
-        &lt;artifactId&gt;oss-lib-swagger-spring-boot-${spring-boot.version}&lt;/artifactId&gt;
-    &lt;/dependency&gt;
-</pre></div></div>
-
-<p>application.yml:</p>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">springfox.documentation.swagger.v1.path: '/api-docs'
-springfox.documentation.swagger.v2.path: '/v2/api-docs'
-</pre></div></div>
-
-<blockquote>
-  
-<p>NOTES:&#x5982;&#x679c;&#x9879;&#x76ee;&#x5f00;&#x542f;&#x4e86;&#x81ea;&#x5b9a;&#x4e49;&#x7684;SpringMVC&#xff0c;&#x5373;<tt>@EnableWebMvc</tt>&#xff0c;&#x9700;&#x8981;&#x914d;&#x7f6e;&#x6307;&#x5b9a;swagger-ui.html&#x7684;&#x8def;&#x5f84;&#xff0c;&#x5982;&#x4e0b;&#xff1a;</p>
-</blockquote>
-
-<div class="source">
-<div class="source"><pre class="prettyprint linenums">@Configuration
-@EnableWebMvc
-public class WebMvcConfiguration extends WebMvcConfigurerAdapter {
-
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler(&quot;swagger-ui.html&quot;).addResourceLocations(&quot;classpath:/META-INF/resources/&quot;);
-        registry.addResourceHandler(&quot;/webjars/**&quot;).addResourceLocations(&quot;classpath:/META-INF/resources/webjars/&quot;);
-        super.addResourceHandlers(registry);
-    }
-
-}
-</pre></div></div>
-</div>
-<div class="section">
-<h2><a name="a"></a><a href="#a">&#x53c2;&#x8003;&#x6587;&#x6863;</a></h2>
-
-<p><a class="externalLink" href="http://springfox.github.io/springfox/docs/current/">official docs</a></p>
-
-<p><a class="externalLink" href="http://editor.swagger.io">swagger-editor</a> <a class="externalLink" href="http://mvpotter.com/post/2016/10/springfox-plugin-for-adding-auth-params/">springfox-plugin-for-adding-auth-params</a></p>
-
-<p><a class="externalLink" href="http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/">usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis</a></p>
-
-<p><a class="externalLink" href="https://github.com/springfox/springfox/issues/511">Could it work without RequestMapping annotations? #511</a> <a class="externalLink" href="https://github.com/springfox/springfox/issues/1335">Ability to add custom ApiDescriptions not described via request mappings #1335</a></p></div>
+<p>&#x53e6;&#x5916;&#x63d0;&#x4f9b;&#x5c0f;&#x5de5;&#x5177;, &#x65b9;&#x4fbf;&#x7f16;&#x5199;&#x6d4b;&#x8bd5;, &#x5e2e;&#x52a9;&#x6d4b;&#x8bd5;&#x4ee3;&#x7801;&#x4fdd;&#x6301;&#x7d27;&#x51d1;.</p>
                   </div>
             </div>
           </div>
