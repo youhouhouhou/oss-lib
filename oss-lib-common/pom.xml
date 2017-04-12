@@ -13,7 +13,6 @@
     <artifactId>oss-lib-common</artifactId>
     <name>oss-lib-common</name>
     <packaging>jar</packaging>
-    <url>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-common</url>
 
     <dependencies>
         <dependency>

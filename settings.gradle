@@ -1,5 +1,5 @@
 
-println "settings.gradle"
+//println "settings.gradle"
 
 rootProject.name = 'oss-lib'
 
@@ -21,20 +21,13 @@ if ("${gradle.ext.springBootVersion}" ==~ /1\.3\.[0-9]+\..+/) {
 include 'oss-lib-common'
 include 'oss-lib-swagger'
 include 'oss-lib-test'
-include 'oss-lib-webmvc'
 include 'oss-lib-log4j2'
 include 'oss-lib-hystrix'
 
 if("${gradle.ext.springBootVersion}" ==~ /1\.4\.[0-9]+\..+/) {
   println "include oss-lib-adminclient"
-  println "include oss-lib-errorhandle"
-  println "include oss-lib-security"
 
   include 'oss-lib-adminclient'
-  include 'oss-lib-errorhandle'
-  include 'oss-lib-security'
 } else {
   println "not include oss-lib-adminclient"
-  println "not include oss-lib-errorhandle"
-  println "not include oss-lib-security"
 }

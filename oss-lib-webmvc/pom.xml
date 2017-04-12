@@ -13,7 +13,6 @@
     <artifactId>oss-lib-webmvc</artifactId>
     <name>oss-lib-webmvc</name>
     <packaging>jar</packaging>
-    <url>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-webmvc</url>
 
     <dependencies>
         <dependency>

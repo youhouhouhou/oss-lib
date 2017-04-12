@@ -13,7 +13,6 @@
     <artifactId>oss-lib-swagger</artifactId>
     <name>oss-lib-swagger</name>
     <packaging>jar</packaging>
-    <url>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-swagger</url>
 
     <dependencies>
         <dependency>

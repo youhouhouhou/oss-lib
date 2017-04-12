@@ -1,6 +1,8 @@
 
 # oss-lib-common
 
+Common utils and components for open source stack libraries
+
 oss-lib成员共同使用的库, 同时包含一些spring-boot配置的扩展, 密码库等.
 
 ## spring-boot配置扩展
