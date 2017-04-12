@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="Date-Revision-yyyymmdd" content="20170412" />
     <meta http-equiv="Content-Language" content="en" />
-    <title>oss-lib-common &#x2013; PMD Results</title>
+    <title>oss-lib-webmvc &#x2013; PMD Results</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido-1.5.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -77,8 +77,6 @@
                       <li class="dropdown-submenu">
                                       <a href="project-reports.html"  title="Project Reports">Project Reports</a>
               <ul class="dropdown-menu">
-                                  <li>      <a href="jacoco/index.html"  title="JaCoCo">JaCoCo</a>
-</li>
                                   <li>      <a href="surefire-report.html"  title="Surefire Report">Surefire Report</a>
 </li>
                                   <li>      <a href="findbugs.html"  title="FindBugs">FindBugs</a>
@@ -90,8 +88,6 @@
                                   <li>      <a href="apidocs/index.html"  title="JavaDocs">JavaDocs</a>
 </li>
                                   <li>      <a href="xref/index.html"  title="Source Xref">Source Xref</a>
-</li>
-                                  <li>      <a href="xref-test/index.html"  title="Test Source Xref">Test Source Xref</a>
 </li>
                                   <li>      <a href="taglist.html"  title="Tag List">Tag List</a>
 </li>
@@ -116,7 +112,7 @@
           <div id="banner">
         <div class="pull-left">
                                 <div id="bannerLeft">
-                <h2>oss-lib-common</h2>
+                <h2>oss-lib-webmvc</h2>
                 </div>
                       </div>
         <div class="pull-right">  </div>
@@ -167,20 +163,13 @@
           <span class="icon-chevron-right"></span>
         Project Information</a>
                   </li>
-                                                                                                                                                                                                                                              
+                                                                                                                                                                                                          
       <li>
   
                           <a href="project-reports.html" title="Project Reports">
           <span class="icon-chevron-down"></span>
         Project Reports</a>
                     <ul class="nav nav-list">
-                    
-      <li>
-  
-                          <a href="jacoco/index.html" title="JaCoCo">
-          <span class="none"></span>
-        JaCoCo</a>
-            </li>
                     
       <li>
   
@@ -226,13 +215,6 @@
                     
       <li>
   
-                          <a href="xref-test/index.html" title="Test Source Xref">
-          <span class="none"></span>
-        Test Source Xref</a>
-            </li>
-                    
-      <li>
-  
                           <a href="taglist.html" title="Tag List">
           <span class="none"></span>
         Tag List</a>
@@ -270,464 +252,59 @@
 <div class="section">
 <h2><a name="Files"></a>Files</h2>
 <div class="section">
-<h3><a name="comyirendaiossbootautoconfigureAppErrorProperties.java"></a>com/yirendai/oss/boot/autoconfigure/AppErrorProperties.java</h3>
+<h3><a name="comyirendaiosslibwebmvcapiJetty9ServerCustomizers.java"></a>com/yirendai/oss/lib/webmvc/api/Jetty9ServerCustomizers.java</h3>
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>Violation</th>
 <th>Line</th></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'handlerEnabled'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppErrorProperties.html#L20">20</a></td></tr>
+<td>This class has too many methods, consider refactoring it.</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/api/Jetty9ServerCustomizers.html#L40">40</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/webmvc/api/Jetty9ServerCustomizers.html#L302">302</a></td></tr>
 <tr class="a">
-<td>Avoid unused private fields such as 'searchStrategy'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppErrorProperties.html#L25">25</a></td></tr></table></div>
+<td>Consider simply returning the value vs storing it in local variable 'requestLog'</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/api/Jetty9ServerCustomizers.html#L142">142</a></td></tr></table></div>
 <div class="section">
-<h3><a name="comyirendaiossbootautoconfigureAppLogProperties.java"></a>com/yirendai/oss/boot/autoconfigure/AppLogProperties.java</h3>
+<h3><a name="comyirendaiosslibwebmvcapiJsonToken.java"></a>com/yirendai/oss/lib/webmvc/api/JsonToken.java</h3>
 <table border="0" class="table table-striped">
 <tr class="b">
 <th>Violation</th>
 <th>Line</th></tr>
 <tr class="a">
-<td>Private field 'flag' could be made final; it is only initialized in the declaration or constructor.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppLogProperties.html#L11">11</a></td></tr>
+<td>Field fromToken has the same name as a method</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/api/JsonToken.html#L18">18</a></td></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'flag'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppLogProperties.html#L11">11</a></td></tr></table></div>
+<td>Field toToken has the same name as a method</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/api/JsonToken.html#L19">19</a></td></tr></table></div>
 <div class="section">
-<h3><a name="comyirendaiossbootautoconfigureAppProperties.java"></a>com/yirendai/oss/boot/autoconfigure/AppProperties.java</h3>
+<h3><a name="comyirendaiosslibwebmvcapiTypeSafeCookie.java"></a>com/yirendai/oss/lib/webmvc/api/TypeSafeCookie.java</h3>
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>Violation</th>
 <th>Line</th></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'log'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L57">57</a></td></tr>
-<tr class="a">
-<td>Avoid unused private fields such as 'error'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L66">66</a></td></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'adminPublicKey'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L73">73</a></td></tr>
-<tr class="a">
-<td>Avoid unused private fields such as 'random'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L77">77</a></td></tr>
-<tr class="b">
-<td>Document empty method body</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L114">114</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/AppProperties.html#L115">115</a></td></tr></table></div>
+<td>The method buildCookie() has an NPath complexity of 450</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/api/TypeSafeCookie.html#L31">31</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/webmvc/api/TypeSafeCookie.html#L55">55</a></td></tr></table></div>
 <div class="section">
-<h3><a name="comyirendaiossbootautoconfigureAppSecurityProperties.java"></a>com/yirendai/oss/boot/autoconfigure/AppSecurityProperties.java</h3>
+<h3><a name="comyirendaiosslibwebmvcinternalDefaultDomainResolver.java"></a>com/yirendai/oss/lib/webmvc/internal/DefaultDomainResolver.java</h3>
 <table border="0" class="table table-striped">
 <tr class="a">
 <th>Violation</th>
 <th>Line</th></tr>
 <tr class="b">
-<td>Avoid unused private fields such as 'cookieKey'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppSecurityProperties.html#L22">22</a></td></tr>
+<td>Private field 'domain' could be made final; it is only initialized in the declaration or constructor.</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/internal/DefaultDomainResolver.html#L19">19</a></td></tr>
 <tr class="a">
-<td>Avoid unused private fields such as 'jwtKey'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppSecurityProperties.html#L25">25</a></td></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'permited'.</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppSecurityProperties.html#L26">26</a></td></tr></table></div>
+<td>Private field 'prodEnvironment' could be made final; it is only initialized in the declaration or constructor.</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/internal/DefaultDomainResolver.html#L20">20</a></td></tr></table></div>
 <div class="section">
-<h3><a name="comyirendaiossbootautoconfigureAppUtils.java"></a>com/yirendai/oss/boot/autoconfigure/AppUtils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L14">14</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L53">53</a></td></tr>
-<tr class="a">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L14">14</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L53">53</a></td></tr>
-<tr class="b">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L14">14</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/AppUtils.html#L53">53</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiossbootautoconfigurePathUtils.java"></a>com/yirendai/oss/boot/autoconfigure/PathUtils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L98">98</a></td></tr>
-<tr class="a">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L98">98</a></td></tr>
-<tr class="b">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L98">98</a></td></tr>
-<tr class="a">
-<td>Local variable 'matcher' could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L53">53</a></td></tr>
-<tr class="b">
-<td>Do not add empty strings</td>
-<td><a href="./xref/com/yirendai/oss/boot/autoconfigure/PathUtils.html#L63">63</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonBasicAuthUtils.java"></a>com/yirendai/oss/lib/common/BasicAuthUtils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L89">89</a></td></tr>
-<tr class="a">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L89">89</a></td></tr>
-<tr class="b">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L89">89</a></td></tr>
-<tr class="a">
-<td>In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L26">26</a></td></tr>
-<tr class="b">
-<td>New exception is thrown in catch block, original stack trace may be lost</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L56">56</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/BasicAuthUtils.html#L59">59</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonCodecUtils.java"></a>com/yirendai/oss/lib/common/CodecUtils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L75">75</a></td></tr>
-<tr class="a">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L75">75</a></td></tr>
-<tr class="b">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L12">12</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L75">75</a></td></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CodecUtils.html#L53">53</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonCurlUtils.java"></a>com/yirendai/oss/lib/common/CurlUtils.java</h3>
+<h3><a name="comyirendaiosslibwebmvcinternalDefaultRequestResolver.java"></a>com/yirendai/oss/lib/webmvc/internal/DefaultRequestResolver.java</h3>
 <table border="0" class="table table-striped">
 <tr class="b">
 <th>Violation</th>
 <th>Line</th></tr>
 <tr class="a">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L40">40</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L134">134</a></td></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L40">40</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L134">134</a></td></tr>
-<tr class="a">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L40">40</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L134">134</a></td></tr>
-<tr class="b">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L45">45</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L46">46</a></td></tr>
-<tr class="a">
-<td>A method should have only one exit point, and that should be the last statement in the method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/CurlUtils.html#L128">128</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonDateTimeFormatterWrapper.java"></a>com/yirendai/oss/lib/common/DateTimeFormatterWrapper.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>It is a good practice to call super() in a constructor</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/DateTimeFormatterWrapper.html#L19">19</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/DateTimeFormatterWrapper.html#L21">21</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonDefaults.java"></a>com/yirendai/oss/lib/common/Defaults.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L53">53</a></td></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L53">53</a></td></tr>
-<tr class="a">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L53">53</a></td></tr>
-<tr class="b">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L21">21</a></td></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L23">23</a></td></tr>
-<tr class="b">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L25">25</a></td></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L27">27</a></td></tr>
-<tr class="b">
-<td>Variables that are final and static should be all capitals, 'yyyyMMdd_HHmmss' is not all capitals.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L29">29</a></td></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L29">29</a></td></tr>
-<tr class="b">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L30">30</a></td></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L46">46</a></td></tr>
-<tr class="b">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L47">47</a></td></tr>
-<tr class="a">
-<td>Unnecessary use of fully qualified name 'DateTimeFormat.forPattern' due to existing static import 'org.joda.time.format.DateTimeFormat.forPattern'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Defaults.html#L51">51</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonJackson2Configurator.java"></a>com/yirendai/oss/lib/common/Jackson2Configurator.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>When instantiating a SimpleDateFormat object, specify a Locale</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Jackson2Configurator.html#L94">94</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonJackson2Utils.java"></a>com/yirendai/oss/lib/common/Jackson2Utils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/Jackson2Utils.html#L28">28</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/Jackson2Utils.html#L34">34</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonJaxbMapAdapter.java"></a>com/yirendai/oss/lib/common/JaxbMapAdapter.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Local variable 'node' could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbMapAdapter.html#L24">24</a></td></tr>
-<tr class="b">
-<td>Local variable 'node' could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbMapAdapter.html#L28">28</a></td></tr>
-<tr class="a">
-<td>Local variable 'child' could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbMapAdapter.html#L29">29</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonJaxbMapWrapper.java"></a>com/yirendai/oss/lib/common/JaxbMapWrapper.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Private field 'elements' could be made final; it is only initialized in the declaration or constructor.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbMapWrapper.html#L18">18</a></td></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'elements'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbMapWrapper.html#L18">18</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonJaxbUtils.java"></a>com/yirendai/oss/lib/common/JaxbUtils.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Parameter 's' is not assigned and could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbUtils.html#L64">64</a></td></tr>
-<tr class="a">
-<td>Parameter 'date' is not assigned and could be declared final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/JaxbUtils.html#L69">69</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonRequestUtlis.java"></a>com/yirendai/oss/lib/common/RequestUtlis.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L51">51</a></td></tr>
-<tr class="b">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L51">51</a></td></tr>
-<tr class="a">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L15">15</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L51">51</a></td></tr>
-<tr class="b">
-<td>A method should have only one exit point, and that should be the last statement in the method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/RequestUtlis.html#L41">41</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoAesCbcKey.java"></a>com/yirendai/oss/lib/common/crypto/AesCbcKey.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'keySpec'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L26">26</a></td></tr>
-<tr class="a">
-<td>Field keySpec has the same name as a method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L26">26</a></td></tr>
-<tr class="b">
-<td>Perhaps 'keySpec' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L26">26</a></td></tr>
-<tr class="a">
-<td>Perhaps 'cbcIv' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L28">28</a></td></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'cbcIv'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L28">28</a></td></tr>
-<tr class="a">
-<td>Avoid unused private fields such as 'cbcIvLength'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L30">30</a></td></tr>
-<tr class="b">
-<td>Perhaps 'cbcIvLength' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L30">30</a></td></tr>
-<tr class="a">
-<td>Field cbcIvLength has the same name as a method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L30">30</a></td></tr>
-<tr class="b">
-<td>Unnecessary use of fully qualified name 'CryptoConstants.ALGO_AES' due to existing static import 'com.yirendai.oss.lib.common.crypto.CryptoConstants.ALGO_AES'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesCbcKey.html#L66">66</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoAesException.java"></a>com/yirendai/oss/lib/common/crypto/AesException.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'aesError'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesException.html#L9">9</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoAesKeyGenerator.java"></a>com/yirendai/oss/lib/common/crypto/AesKeyGenerator.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Avoid using Literals in Conditional Statements</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/AesKeyGenerator.html#L39">39</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoCryptos.java"></a>com/yirendai/oss/lib/common/crypto/Cryptos.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>This abstract class does not have any abstract methods</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L116">116</a></td></tr>
-<tr class="a">
-<td>Abstract classes should be named AbstractXXX</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L116">116</a></td></tr>
-<tr class="b">
-<td>A class which only has private constructors should be final</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L16">16</a>&#x2013;<a href="./xref/com/yirendai/oss/lib/common/crypto/Cryptos.html#L116">116</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoJwtKey.java"></a>com/yirendai/oss/lib/common/crypto/JwtKey.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Perhaps 'keyExpression' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/JwtKey.html#L17">17</a></td></tr>
-<tr class="a">
-<td>Perhaps 'signatureAlgorithm' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/JwtKey.html#L19">19</a></td></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'signatureKey'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/JwtKey.html#L21">21</a></td></tr>
-<tr class="a">
-<td>Perhaps 'signatureKey' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/JwtKey.html#L21">21</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoJwtKeyGenerator.java"></a>com/yirendai/oss/lib/common/crypto/JwtKeyGenerator.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Do not add empty strings</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/JwtKeyGenerator.html#L47">47</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoKeyExpression.java"></a>com/yirendai/oss/lib/common/crypto/KeyExpression.java</h3>
-<table border="0" class="table table-striped">
-<tr class="b">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="a">
-<td>Avoid unused imports such as 'lombok.ToString'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/KeyExpression.html#L13">13</a></td></tr>
-<tr class="b">
-<td>Do not add empty strings</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/KeyExpression.html#L64">64</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoRsaKey.java"></a>com/yirendai/oss/lib/common/crypto/RsaKey.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Avoid unused private fields such as 'rsaPublicKey'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L57">57</a></td></tr>
-<tr class="a">
-<td>Avoid unused private fields such as 'rsaPrivateKey'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L59">59</a></td></tr>
-<tr class="b">
-<td>Field keyFormat has the same name as a method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L61">61</a></td></tr>
-<tr class="a">
-<td>Field keySize has the same name as a method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L63">63</a></td></tr>
-<tr class="b">
-<td>Field keyType has the same name as a method</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L65">65</a></td></tr>
-<tr class="a">
-<td>When doing a String.toLowerCase()/toUpperCase() call, use a Locale</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L189">189</a></td></tr>
-<tr class="b">
-<td>When doing a String.toLowerCase()/toUpperCase() call, use a Locale</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKey.html#L189">189</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommoncryptoRsaKeyGenerator.java"></a>com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Perhaps 'spec' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L49">49</a></td></tr>
-<tr class="a">
-<td>Avoid unused private fields such as 'spec'.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L49">49</a></td></tr>
-<tr class="b">
-<td>Perhaps 'keyType' could be replaced by a local variable.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L55">55</a></td></tr>
-<tr class="a">
-<td>Unnecessary use of fully qualified name 'RsaKey.keySize' due to existing static import 'com.yirendai.oss.lib.common.crypto.RsaKey.keySize'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L62">62</a></td></tr>
-<tr class="b">
-<td>Avoid declaring a variable if it is unreferenced before a possible exit point.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L117">117</a></td></tr>
-<tr class="a">
-<td>Unnecessary use of fully qualified name 'RsaKey.extractPrivateKey' due to existing static import 'com.yirendai.oss.lib.common.crypto.RsaKey.extractPrivateKey'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L124">124</a></td></tr>
-<tr class="b">
-<td>Unnecessary use of fully qualified name 'RsaKey.extractPrivateKey' due to existing static import 'com.yirendai.oss.lib.common.crypto.RsaKey.extractPrivateKey'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L126">126</a></td></tr>
-<tr class="a">
-<td>Unnecessary use of fully qualified name 'RsaKey.extractPublicKey' due to existing static import 'com.yirendai.oss.lib.common.crypto.RsaKey.extractPublicKey'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L133">133</a></td></tr>
-<tr class="b">
-<td>Unnecessary use of fully qualified name 'RsaKey.extractPublicKey' due to existing static import 'com.yirendai.oss.lib.common.crypto.RsaKey.extractPublicKey'</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/crypto/RsaKeyGenerator.html#L135">135</a></td></tr></table></div>
-<div class="section">
-<h3><a name="comyirendaiosslibcommonmsginterpolateSpelMessageInterpolator.java"></a>com/yirendai/oss/lib/common/msginterpolate/SpelMessageInterpolator.java</h3>
-<table border="0" class="table table-striped">
-<tr class="a">
-<th>Violation</th>
-<th>Line</th></tr>
-<tr class="b">
-<td>Variables that are final and static should be all capitals, 'log' is not all capitals.</td>
-<td><a href="./xref/com/yirendai/oss/lib/common/msginterpolate/SpelMessageInterpolator.html#L28">28</a></td></tr></table></div></div>
+<td>Private field 'loginEndpoint' could be made final; it is only initialized in the declaration or constructor.</td>
+<td><a href="./xref/com/yirendai/oss/lib/webmvc/internal/DefaultRequestResolver.html#L29">29</a></td></tr></table></div></div>
                   </div>
             </div>
           </div>
