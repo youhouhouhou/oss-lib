@@ -33,11 +33,8 @@
     <modules>
         <module>oss-lib-adminclient</module>
         <module>oss-lib-common</module>
-        <module>oss-lib-errorhandle</module>
-        <module>oss-lib-security</module>
         <module>oss-lib-swagger</module>
         <module>oss-lib-test</module>
-        <module>oss-lib-webmvc</module>
         <module>oss-lib-log4j2</module>
         <module>oss-lib-hystrix</module>
     </modules>
@@ -115,27 +112,12 @@
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>oss-lib-errorhandle</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
                 <artifactId>oss-lib-log</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>${project.groupId}</groupId>
-                <artifactId>oss-lib-security</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
                 <artifactId>oss-lib-swagger</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>oss-lib-webmvc</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

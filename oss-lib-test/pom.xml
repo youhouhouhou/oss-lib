@@ -13,7 +13,6 @@
     <artifactId>oss-lib-test</artifactId>
     <name>oss-lib-test</name>
     <packaging>jar</packaging>
-    <url>https://github.com/Yirendai/oss-lib/tree/develop/oss-lib-test</url>
 
     <dependencies>
         <dependency>
